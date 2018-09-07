@@ -5,5 +5,5 @@ const prueba = function () {
 }
 module.exports = {
   todas: cervezas,
-  alAzar: uniqueRandomArray(cervezas)() // devuelve una función, para que sea un objeto añadimos ( )
+  alAzar: uniqueRandomArray(cervezas) // devuelve una función, para llamarla nombreModulo.alAzar()
 }
