@@ -1,0 +1,14 @@
+{
+  "name": "usando-libreria-npm-propia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "teo <teo.lairla@iessierradeguara.com>",
+  "license": "MIT",
+  "dependencies": {
+    "teolairlasg-cervezas": "^1.0.0"
+  }
+}
