@@ -1,14 +1,15 @@
 {
   "name": "teolairlasg-cervezas",
-  "version": "1.1.0",
+  "version": "0.0.0-development",
   "description": "Genera un listado de cervezas y permite elegirlas al azar",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha test/index.test.js -w"
+    "test": "mocha test/index.test.js -w",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com//teolairlasg/teolairlasg-cervezas"
+    "url": "https://github.com/teolairlasg/teolairlasg-cervezas"
   },
   "keywords": [
     "cerveza"
@@ -23,7 +24,8 @@
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "semantic-release": "^15.9.14"
   },
   "dependencies": {
     "lodash": "^4.17.10",
