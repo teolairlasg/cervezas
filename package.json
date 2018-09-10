@@ -4,7 +4,7 @@
   "description": "Genera un listado de cervezas y permite elegirlas al azar",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/index.test.js -w"
   },
   "repository": {
     "type": "git",
@@ -16,12 +16,14 @@
   "author": "teo <teo.lairla@iessierradeguara.com>",
   "license": "MIT",
   "devDependencies": {
+    "chai": "^4.1.2",
     "eslint": "^5.5.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-standard": "^4.0.0"
+    "eslint-plugin-standard": "^4.0.0",
+    "mocha": "^5.2.0"
   },
   "dependencies": {
     "lodash": "^4.17.10",
